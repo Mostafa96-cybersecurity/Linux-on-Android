@@ -52,6 +52,9 @@ It is simple this issue because of vnc server need to be reopening . But how!?
 open your dist as cli **bash start-ubuntu.sh** 
 Write **vncserver-stop** will kill vnc process and write **vncserver-start** will start vnc process. That's it 😜 
 Go to vnc and try again will open . 
+
+
+
 Anthor issue with password forgotten . Go to your dist as cli and write **vncpasswd** you will be asked to Assign new password .*
 
 # i hope This article be useful for you . 
