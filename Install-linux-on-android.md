@@ -2,7 +2,7 @@
 
 ## How To Install Linux on Android
 
-***This subject will discuss how to install Linux on android.***
+This subject will discuss how to install Linux on android.
 
 #  requirements
 
@@ -12,8 +12,7 @@
 -  install andronix app.
 -  install VNC for Gui ( optional ) but I prefer to install it.
 
-Download apps
-
+### Download apps
 
 1.  Termux app [Download Termux](https://play.google.com/store/apps/details?id=com.termux&hl=ar&gl=US)
 2.  Andronix app [Download Andronix](https://play.google.com/store/apps/details?id=studio.com.techriz.andronix&hl=ar&gl=US)
@@ -31,7 +30,7 @@ after installing all apps
 
 - Step Four after the installation is done. you need to open your dist but how!? write `ls` command to display the files where you are. go to download directory cd download display the files in this directory ls in my android i have installed ubuntu . in your case, you will find your dist ended with `.sh`. how to execute this file!? with bash command For Example `bash start-ubuntu.sh` will open Linux dist as cli . you can write Linux commands and do what you would like to do such as you have Linux.
 
-- Step Five Now we have Linux as a command-line interface. but we want to open it as Gui. do not be impress! we will get Linux as Gui with VNC open VNC app. Press the + sign. you will be asked for IP Adress:Port and the name of your computer. IP Adress will be the loopback address `127.0.0.1:1` The port will be 1 the name Write any name you like after you answer you will be asked too for password of this dist . remember the password that you have entered during the installation.
+- Step Five Now we have Linux as a command-line interface. but we want to open it as Gui. do not be impress! we will get Linux as Gui with VNC open VNC  app. Press the + sign. you will be asked for IP Adress:Port and the name of your computer. IP Adress will be the loopback address `127.0.0.1:1` The port will be 1 the name Write any name you like after you answer you will be asked too for password of this dist . remember the password that you have entered during the installation.
 
 The installation is successfully Done.
 
